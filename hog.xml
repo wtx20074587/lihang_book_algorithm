@@ -1,14 +1,10 @@
 <?xml version="1.0"?>
 <opencv_storage>
 <hog type_id="opencv-object-detector-hog">
-  <winSize>
-    28 28</winSize>
-  <blockSize>
-    14 14</blockSize>
-  <blockStride>
-    7 7</blockStride>
-  <cellSize>
-    7 7</cellSize>
+  <winSize>28 28</winSize>
+  <blockSize>14 14</blockSize>
+  <blockStride>7 7</blockStride>
+  <cellSize>7 7</cellSize>
   <nbins>9</nbins>
   <derivAperture>1</derivAperture>
   <winSigma>4.</winSigma>

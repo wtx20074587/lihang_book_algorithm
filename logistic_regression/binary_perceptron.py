@@ -15,7 +15,6 @@ import time
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score
 
-
 class Perceptron(object):
 
     def __init__(self):
