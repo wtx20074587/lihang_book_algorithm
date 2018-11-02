@@ -8,7 +8,7 @@ N = 10 #生成训练数据的个数
 
 # AX=0 相当于matlab中 null(a','r')
 def null(a, rtol=1e-5):
-    u, s, v = np.linalg.svd(a)
+    u, s, v = np.linalg.svd(a) # 奇异值分解
     rank = (s > rtol*s[0]).sum()
     return rank, v[rank:].T.copy()
 
@@ -49,7 +49,7 @@ def data_visualization(X,y,title):
 
     size = len(y)
 
-    for i in xrange(size):
+    for i in range(size):
         X_1 = X[0][i]
         X_2 = X[1][i]
 
@@ -76,7 +76,7 @@ def rebuild_features(features):
     size = len(features[0])
 
     new_features = []
-    for i in xrange(size):
+    for i in range(size):
         new_features.append([features[0][i],features[1][i]])
 
     return new_features
@@ -88,11 +88,11 @@ def generate_dataset(size, noisy = False, visualization = True):
     y = list(y[0])
 
     if visualization:
-        data_visualization(X,y,'all data')         #数据可视化
+        data_visualization(X,y,'all data')  #数据可视化
 
     testset_size = int(len(y)*0.333)
 
-    indexes = [i for i in xrange(len(y))]
+    indexes = [i for i in range(len(y))]
     test_indexes = random.sample(indexes,testset_size)
     train_indexes = list(set(indexes)-set(test_indexes))
 
@@ -121,17 +121,12 @@ def generate_dataset(size, noisy = False, visualization = True):
 
     return rebuild_features(trainset_features),trainset_labels,rebuild_features(testset_features),testset_labels
 
-
-
 if __name__ == '__main__':
-
     size = 1000
     generate_dataset(size)
-
     # generate_dataset
     # print sign
     # sign = np.vectorize(sign)
     # X,y,w = mk_data(size,False)
     #
     # data_visualization(X,y)
-# encoding=utf8
