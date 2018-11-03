@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 
 # 利用opencv获取图像hog特征
 def get_hog_features(trainset):
-    features = []
+    features = [] # feature为py中的list
     # 通过参数，构造HOGDescriptor对象，指定winSize,blockSize,cellSize, nbins
     hog = cv2.HOGDescriptor('../hog.xml')
 
@@ -24,19 +24,19 @@ def get_hog_features(trainset):
         # hog_feature = np.transpose(hog_feature)
         features.append(hog_feature)
 
-    features = np.array(features)
+    features = np.array(features) # 将list转换在矩阵
     features = np.reshape(features,(-1,324)) # 324 的feature如何提取？
 
     return features
 
 def Predict(testset,trainset,train_labels):
-    predict = []
-    count = 0
+    predict = [] # 预测结果
+    count = 0    # test集中的预测计数,方便查看进度
 
     for test_vec in testset:
         # 输出当前运行的测试用例坐标，用于测试
         print("count = ", count)
-        count += 1
+        count += 1 # 额，进度好慢。。。
 
         knn_list = []       # 当前k个最近邻居
         max_index = -1      # 当前k个最近邻居中距离最远点的坐标
@@ -49,7 +49,7 @@ def Predict(testset,trainset,train_labels):
             # 计算当前的test_vec，跟前k个点（随机选中的k个中心），每个点的距离
             dist = np.linalg.norm(train_vec - test_vec)  # 计算两个点的欧氏距离
 
-            knn_list.append((dist,label))
+            knn_list.append((dist,label)) # 并保留K个邻居的  dist和label
 
         # trainset中，除去前K个点后，剩下的点
         for i in range(k,len(train_labels)):
@@ -78,7 +78,7 @@ def Predict(testset,trainset,train_labels):
                 max_index = -1
                 max_dist = 0
 
-        # 统计选票
+        # 对当前test_vec的计算结束，统计选票
         # 此时，完成test_set中的这1个test_vec向量，与train_set（带标记的向量）中每个点的距离计算
         # 并且，已经找到了test_vec 距离最近的K个邻居
         class_total = 10  # 还是使用常量K吧
@@ -114,6 +114,7 @@ if __name__ == '__main__':
     print("wtx, imgs.shape = ", imgs.shape)
     print("wtx, labels.shape = ", labels.shape)
 
+    # 对所有的数据先提取特征，然后再划分训练集和测试集
     features = get_hog_features(imgs)
 
     # 选取 2/3 数据作为训练集， 1/3 数据作为测试集
