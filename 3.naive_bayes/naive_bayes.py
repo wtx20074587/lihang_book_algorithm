@@ -57,7 +57,6 @@ def calculate_probability(img,label):
 
 def Predict(testset,prior_probability,conditional_probability):
     predict = []
-
     for img in testset:
 
         # 图像二值化

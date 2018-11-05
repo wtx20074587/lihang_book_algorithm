@@ -90,14 +90,14 @@ def Predict(testset,trainset,train_labels):
         mmax = max(class_count)
 
         # 找出最大选票标签
-        # 可以使用argmax ? 找最大值的下标
+        # 找最大值的下标 : np.argmax
+        # index_max = np.argmax(class_total)
         for i in range(class_total):
             if mmax == class_count[i]:
                 predict.append(i)
                 break
 
     return np.array(predict)
-
 
 k = 10
 

@@ -55,5 +55,5 @@ def perceptron(data_coord, data_label):
 # 准备3组测试数据，2个正例， 1个负例
 data_coord = np.asarray(((3, 3), (4, 3), (1, 1)))
 data_label = np.asarray((1, 1, -1))
-# start perceptron
+# startperceptron
 perceptron(data_coord, data_label)

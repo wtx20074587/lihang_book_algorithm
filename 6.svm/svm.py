@@ -35,7 +35,7 @@ class SVM(object):
         self.E = [self._E_(i) for i in range(self.N)]
 
         self.C = 1000
-        self.Max_Interation = 5000
+        self.Max_Interation = 5000 # 5000次循环
 
 
     def _satisfy_KKT(self, i):
@@ -124,13 +124,10 @@ class SVM(object):
 
 
     def train(self, features, labels):
-
         self._init_parameters(features, labels)
-
         for times in range(self.Max_Interation):
             # if self.is_stop():
             #     return
-
             logging.debug('iterater %d' % times)
 
             i1, i2 = self._select_two_parameters()
@@ -203,9 +200,7 @@ class SVM(object):
 if __name__ == "__main__":
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
-
     print('Start read data')
-
     time_1 = time.time()
 
     # 选取 2/3 数据作为训练集， 1/3 数据作为测试集
