@@ -14,6 +14,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
+train_num = 1000
 
 class LogisticRegression(object):
 
@@ -22,7 +23,7 @@ class LogisticRegression(object):
         self.max_iteration = 5000
 
     def predict_(self,x):
-        wx = sum([self.w[j] * x[j] for j in xrange(len(self.w))])
+        wx = sum([self.w[j] * x[j] for j in range(len(self.w))])
         exp_wx = math.exp(wx)
 
         predict1 = exp_wx / (1 + exp_wx)
@@ -56,10 +57,10 @@ class LogisticRegression(object):
             time += 1
             correct_count = 0
 
-            wx = sum([self.w[i] * x[i] for i in xrange(len(self.w))])
+            wx = sum([self.w[i] * x[i] for i in range(len(self.w))])
             exp_wx = math.exp(wx)
 
-            for i in xrange(len(self.w)):
+            for i in range(len(self.w)):
                 self.w[i] -= self.learning_step * \
                     (-y * x[i] + float(x[i] * exp_wx) / float(1 + exp_wx))
 
@@ -82,8 +83,8 @@ if __name__ == "__main__":
     raw_data = pd.read_csv('../data/train_binary.csv',header=0)
     data = raw_data.values
 
-    imgs = data[0::,1::]
-    labels = data[::,0]
+    imgs = data[0:train_num:,1::]
+    labels = data[:train_num:,0]
 
 
     # 选取 2/3 数据作为训练集， 1/3 数据作为测试集

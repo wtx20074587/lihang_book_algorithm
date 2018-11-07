@@ -6,11 +6,9 @@ import logging
 import numpy as np
 import pandas as pd
 
-
 # from sklearn.cross_validation import train_test_split
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-
 
 total_class = 10
 
@@ -22,7 +20,6 @@ def log(func):
 
         end_time = time.time()
         logging.debug('end %s(), cost %s seconds' % (func.__name__,end_time-start_time))
-
         return ret
     return wrapper
 
@@ -30,7 +27,7 @@ def log(func):
 # 二值化
 def binaryzation(img):
     cv_img = img.astype(np.uint8)
-    cv2.threshold(cv_img,50,1,cv2.cv.CV_THRESH_BINARY_INV,cv_img)
+    cv2.threshold(cv_img,50,1,cv2.THRESH_BINARY_INV,cv_img)
     return cv_img
 
 @log
@@ -120,9 +117,9 @@ def recurse_train(train_set,train_label,features,epsilon):
         return Tree(LEAF,Class = label_set.pop())
 
     # 步骤2——如果features为空
-    (max_class,max_len) = max([(i,len(filter(lambda x:x==i,train_label))) for i in xrange(total_class)],key = lambda x:x[1])
+    (max_class,max_len) = max([(i,len(list((filter(lambda x:x==i,train_label))))) for i in range(total_class)],key = lambda x:x[1])
 
-    if len(features) == 0:
+    if len(list(features)) == 0:
         return Tree(LEAF,Class = max_class)
 
     # 步骤3——计算信息增益
@@ -151,7 +148,7 @@ def recurse_train(train_set,train_label,features,epsilon):
     for feature_value in feature_value_list:
 
         index = []
-        for i in xrange(len(train_label)):
+        for i in range(len(train_label)):
             if train_set[i][max_feature] == feature_value:
                 index.append(i)
 
@@ -176,7 +173,7 @@ def predict(test_set,tree):
         result.append(tmp_predict)
     return np.array(result)
 
-
+train_num = 1000
 
 if __name__ == '__main__':
     logger = logging.getLogger()
@@ -185,8 +182,8 @@ if __name__ == '__main__':
     raw_data = pd.read_csv('../data/train.csv',header=0)
     data = raw_data.values
 
-    imgs = data[0::,1::]
-    labels = data[::,0]
+    imgs = data[0:train_num:,1::]
+    labels = data[0:train_num:,0]
 
     # 图片二值化
     features = binaryzation_features(imgs)
