@@ -12,7 +12,8 @@ import logging
 import numpy as np
 import pandas as pd
 
-from sklearn.cross_validation import train_test_split
+# from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 sign_time_count = 0
@@ -179,10 +180,10 @@ class AdaBoost(object):
             em = best_classifier[0]
 
             # 分析用，之后删除 开始
-            print 'em is %s, index is %d' % (str(em),best_classifier[1])
+            print('em is %s, index is %d' % (str(em),best_classifier[1]))
             time2 = time.time()
             global sign_time_count
-            print '总运行时间:%s, 那两段关键代码运行时间:%s, map的时间是:%s' % (str(time2-time1),str(sign_time_count),str(map_time))
+            print('总运行时间:%s, 那两段关键代码运行时间:%s, map的时间是:%s' % (str(time2-time1),str(sign_time_count),str(map_time)))
             sign_time_count = 0
             # 分析用，之后删除  结束
 
@@ -248,7 +249,7 @@ if __name__ == '__main__':
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
-    print 'Start read data'
+    print('Start read data')
 
     time_1 = time.time()
 
@@ -264,21 +265,21 @@ if __name__ == '__main__':
     train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size=0.5, random_state=0)
 
     time_2 = time.time()
-    print 'read data cost ',time_2 - time_1,' second','\n'
+    print('read data cost ',time_2 - time_1,' second','\n')
 
-    print 'Start training'
+    print('Start training')
     train_labels = map(lambda x:2*x-1,train_labels)
     ada = AdaBoost()
     ada.train(train_features, train_labels)
 
     time_3 = time.time()
-    print 'training cost ',time_3 - time_2,' second','\n'
+    print('training cost ',time_3 - time_2,' second','\n')
 
-    print 'Start predicting'
+    print('Start predicting')
     test_predict = ada.predict(test_features)
     time_4 = time.time()
-    print 'predicting cost ',time_4 - time_3,' second','\n'
+    print('predicting cost ',time_4 - time_3,' second','\n')
 
     test_labels = map(lambda x:2*x-1,test_labels)
     score = accuracy_score(test_labels,test_predict)
-    print "The accruacy socre is ", score
+    print("The accruacy socre is ", score)

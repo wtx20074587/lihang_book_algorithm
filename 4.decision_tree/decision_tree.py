@@ -7,7 +7,8 @@ import numpy as np
 import pandas as pd
 
 
-from sklearn.cross_validation import train_test_split
+# from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 
@@ -197,7 +198,7 @@ if __name__ == '__main__':
     test_predict = predict(test_features,tree)
     score = accuracy_score(test_labels,test_predict)
 
-    print "The accruacy socre is ", score
+    print("The accruacy socre is ", score)
 
 
 

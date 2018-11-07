@@ -15,7 +15,8 @@ import random
 
 from collections import defaultdict
 
-from sklearn.cross_validation import train_test_split
+# from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 
@@ -47,7 +48,7 @@ class MaxEnt(object):
         self.Pxy = defaultdict(int)
         self.Px = defaultdict(int)
 
-        for i in xrange(len(X)):
+        for i in range(len(X)):
             x_, y = X[i], Y[i]
             self.Y_.add(y)
 
@@ -60,7 +61,7 @@ class MaxEnt(object):
         计算书中82页最下面那个期望
         '''
         self.EPxy = defaultdict(float)
-        for id in xrange(self.n):
+        for id in range(self.n):
             (x, y) = self.id2xy[id]
             self.EPxy[id] = float(self.Pxy[(x, y)]) / float(self.N)
 
@@ -84,7 +85,7 @@ class MaxEnt(object):
         '''
         计算书83页最上面那个期望
         '''
-        self.EPx = [0.0 for i in xrange(self.n)]
+        self.EPx = [0.0 for i in range(self.n)]
 
         for i, X in enumerate(self.X_):
             Pyxs = self.cal_probality(X)
@@ -104,19 +105,19 @@ class MaxEnt(object):
         self.w = [0.0 for i in range(self.n)]
 
         max_iteration = 1000
-        for times in xrange(max_iteration):
-            print 'iterater times %d' % times
+        for times in range(max_iteration):
+            print('iterater times %d' % times)
             sigmas = []
             self.cal_EPx()
 
-            for i in xrange(self.n):
+            for i in range(self.n):
                 sigma = 1 / self.M * math.log(self.EPxy[i] / self.EPx[i])
                 sigmas.append(sigma)
 
             # if len(filter(lambda x: abs(x) >= 0.01, sigmas)) == 0:
             #     break
 
-            self.w = [self.w[i] + sigmas[i] for i in xrange(self.n)]
+            self.w = [self.w[i] + sigmas[i] for i in range(self.n)]
 
     def predict(self, testset):
         results = []
@@ -142,7 +143,7 @@ def rebuild_features(features):
 
 if __name__ == "__main__":
 
-    print 'Start read data'
+    print('Start read data')
 
     time_1 = time.time()
 
@@ -160,19 +161,19 @@ if __name__ == "__main__":
     test_features = rebuild_features(test_features)
 
     time_2 = time.time()
-    print 'read data cost ', time_2 - time_1, ' second', '\n'
+    print('read data cost ', time_2 - time_1, ' second', '\n')
 
-    print 'Start training'
+    print('Start training')
     met = MaxEnt()
     met.train(train_features, train_labels)
 
     time_3 = time.time()
-    print 'training cost ', time_3 - time_2, ' second', '\n'
+    print('training cost ', time_3 - time_2, ' second', '\n')
 
-    print 'Start predicting'
+    print('Start predicting')
     test_predict = met.predict(test_features)
     time_4 = time.time()
-    print 'predicting cost ', time_4 - time_3, ' second', '\n'
+    print('predicting cost ', time_4 - time_3, ' second', '\n')
 
     score = accuracy_score(test_labels, test_predict)
-    print "The accruacy socre is ", score
+    print("The accruacy socre is ", score)
