@@ -14,12 +14,13 @@ def null(a, rtol=1e-5):
 
 # 符号函数，之后要进行向量化
 def sign(x):
-    if x > 0:
-        return 1
-    elif x == 0:
-        return 0
-    elif x < 0:
-        return -1
+    return np.sign(x)
+    # if x > 0:
+    #     return 1
+    # elif x == 0:
+    #     return 0
+    # elif x < 0:
+    #     return -1
 #noisy=False，那么就会生成N的dim维的线性可分数据X，标签为y
 #noisy=True, 那么生成的数据是线性不可分的,标签为y
 def mk_data(N, noisy=False):
@@ -60,7 +61,6 @@ def data_visualization(X,y,title):
             class_2[0].append(X_1)
             class_2[1].append(X_2)
 
-
     plt.figure(figsize=(8, 6), dpi=80)
     plt.title(title)
 
@@ -68,7 +68,6 @@ def data_visualization(X,y,title):
 
     type1 = axes.scatter(class_1[0], class_1[1], s=20, c='red')
     type2 = axes.scatter(class_2[0], class_2[1], s=20, c='green')
-
 
     plt.show()
 

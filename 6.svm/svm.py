@@ -10,7 +10,8 @@ import random
 import logging
 
 import pandas as pd
-from sklearn.cross_validation import train_test_split
+# from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 from generate_dataset import *
@@ -36,7 +37,6 @@ class SVM(object):
 
         self.C = 1000
         self.Max_Interation = 5000 # 5000次循环
-
 
     def _satisfy_KKT(self, i):
         ygx = self.Y[i] * self._g_(i)
@@ -89,9 +89,9 @@ class SVM(object):
         核函数
         '''
 
-        if self.kernel == 'linear':
+        if self.kernel == 'linear': # 线性Kernel，点乘
             return sum([x1[k] * x2[k] for k in range(self.n)])
-        if self.kernel == 'poly':
+        if self.kernel == 'poly': #非线性Kernel，点乘，立方
             return (sum([x1[k] * x2[k] for k in range(self.n)])+1)**3
 
         print('没有定义核函数')
@@ -121,7 +121,6 @@ class SVM(object):
                 continue
             result += self.Y[j]*self.alpha[j]*self._K_(self.X[i],self.X[j])
         return result
-
 
     def train(self, features, labels):
         self._init_parameters(features, labels)

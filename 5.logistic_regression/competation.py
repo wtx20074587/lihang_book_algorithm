@@ -12,13 +12,15 @@ from sklearn.metrics import accuracy_score
 from logistic_regression import *
 from binary_perceptron import  *
 
+train_num = 1000
+
 if __name__ == '__main__':
 
     raw_data = pd.read_csv('../data/train_binary.csv', header=0)
     data = raw_data.values
 
-    imgs = data[0::, 1::]
-    labels = data[::, 0]
+    imgs = data[0:train_num:, 1::]
+    labels = data[0:train_num:, 0]
 
     test_time = 10
 
@@ -29,8 +31,7 @@ if __name__ == '__main__':
     for time in range(test_time):
         print('iterater time %d' % time)
 
-        train_features, test_features, train_labels, test_labels = train_test_split(
-            imgs, labels, test_size=0.33, random_state=23323)
+        train_features, test_features, train_labels, test_labels = train_test_split(imgs, labels, test_size=0.33, random_state=23323)
 
         p.train(train_features, train_labels)
         lr.train(train_features, train_labels)
@@ -44,4 +45,4 @@ if __name__ == '__main__':
         print('perceptron accruacy score ', p_score)
         print('logistic Regression accruacy score ', lr_score)
 
-        writer.writerow([time,p_score,lr_score])
+        # writer.writerow([time,p_score,lr_score])

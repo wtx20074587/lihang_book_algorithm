@@ -61,8 +61,7 @@ class LogisticRegression(object):
             exp_wx = math.exp(wx)
 
             for i in range(len(self.w)):
-                self.w[i] -= self.learning_step * \
-                    (-y * x[i] + float(x[i] * exp_wx) / float(1 + exp_wx))
+                self.w[i] -= self.learning_step * (-y * x[i] + float(x[i] * exp_wx) / float(1 + exp_wx))
 
 
     def predict(self,features):

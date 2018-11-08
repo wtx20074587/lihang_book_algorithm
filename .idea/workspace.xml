@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045e9bf9-f3f7-4538-969d-2b496007acc0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/5.logistic_regression/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.decision_tree/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.decision_tree/decision_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.logistic_regression/competation.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.logistic_regression/competation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5.logistic_regression/logistic_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.logistic_regression/logistic_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.logistic_regression/result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/5.logistic_regression/result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.svm/generate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.svm/generate_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.svm/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.svm/svm.py" afterDir="false" />
     </list>
     <ignored path="mnist_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,35 +49,36 @@
     <session id="246849069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="Python" value="44" />
+          <entry key="Python" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6165" />
+          <entry key="Python" value="6484" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="2" />
-          <entry key="py" value="44" />
+          <entry key="py" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6165" />
+          <entry key="py" value="6484" />
         </counts>
       </usages-collector>
     </session>
@@ -88,59 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3.naive_bayes/naive_bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-              <folding>
-                <element signature="e#17#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4.decision_tree/decision_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding>
-                <element signature="e#17#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#151#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.logistic_regression/competation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#151#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5.logistic_regression/logistic_regression.py">
+        <entry file="file://$PROJECT_DIR$/6.svm/svm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+            <state relative-caret-position="530">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <element signature="e#151#162#0" expanded="true" />
               </folding>
@@ -197,10 +149,12 @@
         <option value="$PROJECT_DIR$/softmax/softmax.py" />
         <option value="$PROJECT_DIR$/3.naive_bayes/naive_bayes.py" />
         <option value="$PROJECT_DIR$/4.decision_tree/decision_tree.py" />
-        <option value="$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py" />
         <option value="$PROJECT_DIR$/5.logistic_regression/__init__.py" />
         <option value="$PROJECT_DIR$/5.logistic_regression/competation.py" />
+        <option value="$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py" />
         <option value="$PROJECT_DIR$/5.logistic_regression/logistic_regression.py" />
+        <option value="$PROJECT_DIR$/6.svm/generate_dataset.py" />
+        <option value="$PROJECT_DIR$/6.svm/svm.py" />
       </list>
     </option>
   </component>
@@ -210,23 +164,29 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1007" />
-    <option name="y" value="279" />
-    <option name="width" value="1579" />
-    <option name="height" value="1172" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="747" />
+    <option name="y" value="472" />
+    <option name="width" value="1022" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="lihang_book_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="lihang_book_algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lihang_book_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lihang_book_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="3.naive_bayes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lihang_book_algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.logistic_regression">
+  <component name="RunManager" selected="Python.svm">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,7 +409,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softmax" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mnist_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -458,12 +417,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softmax" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.svm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softmax/softmax.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.svm/svm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -552,19 +511,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.naive_bayes" />
-      <item itemvalue="Python.softmax" />
       <item itemvalue="Python.decision_tree" />
       <item itemvalue="Python.binary_perceptron" />
       <item itemvalue="Python.competation" />
       <item itemvalue="Python.logistic_regression" />
+      <item itemvalue="Python.svm" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.svm" />
         <item itemvalue="Python.competation" />
+        <item itemvalue="Python.logistic_regression" />
         <item itemvalue="Python.binary_perceptron" />
         <item itemvalue="Python.decision_tree" />
-        <item itemvalue="Python.softmax" />
       </list>
     </recent_temporary>
   </component>
@@ -592,13 +551,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22551343" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4742765" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3504823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0056270096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -751,20 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.svm/generate_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="115" column="43" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.svm/svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdaBoost/adaboost_cpp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -835,36 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.naive_bayes/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="e#17#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.decision_tree/decision_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#151#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5.logistic_regression/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -878,20 +794,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.logistic_regression/competation.py">
+    <entry file="file://$PROJECT_DIR$/4.decision_tree/decision_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="245">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
-            <element signature="e#151#161#0" expanded="true" />
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#151#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5.logistic_regression/logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="86" column="27" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
+        <state relative-caret-position="490">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="e#151#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.logistic_regression/competation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#151#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.svm/generate_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1241">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.naive_bayes/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.svm/svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="e#151#162#0" expanded="true" />
           </folding>

@@ -54,6 +54,7 @@ class Perceptron(object):
             labels.append(self.predict_(x))
         return labels
 
+train_num = 1000
 
 if __name__ == '__main__':
     print('Start read data')
@@ -63,8 +64,8 @@ if __name__ == '__main__':
     raw_data = pd.read_csv('../data/train_binary.csv', header=0)
     data = raw_data.values
 
-    imgs = data[0::, 1::]
-    labels = data[::, 0]
+    imgs = data[0:train_num:, 1::]
+    labels = data[:train_num:, 0]
 
     # 选取 2/3 数据作为训练集， 1/3 数据作为测试集
     train_features, test_features, train_labels, test_labels = train_test_split(imgs, labels, test_size=0.33, random_state=23323)
