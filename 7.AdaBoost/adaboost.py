@@ -49,7 +49,7 @@ class Sign(object):
 
         for i in self.indexes:
             score = 0
-            for j in xrange(self.N):
+            for j in range(self.N):
                 val = -1
                 if self.X[j]<i:
                     val = 1
@@ -75,7 +75,7 @@ class Sign(object):
 
         for i in self.indexes:
             score = 0
-            for j in xrange(self.N):
+            for j in range(self.N):
                 val = 1
                 if self.X[j]<i:
                     val = -1
@@ -151,7 +151,7 @@ class AdaBoost(object):
 
         Z = 0
 
-        for i in xrange(self.N):
+        for i in range(self.N):
             Z += self._w_(index,classifier,i)
 
         return Z
@@ -160,14 +160,14 @@ class AdaBoost(object):
 
         self._init_parameters_(features,labels)
 
-        for times in xrange(self.M):
+        for times in range(self.M):
             logging.debug('iterater %d' % times)
 
             time1 = time.time()
             map_time = 0
 
             best_classifier = (100000,None,None)        #(误差率,针对的特征，分类器)
-            for i in xrange(self.n):
+            for i in range(self.n):
                 map_time -= time.time()
                 features = map(lambda x:x[i],self.X)
                 map_time += time.time()
@@ -197,13 +197,13 @@ class AdaBoost(object):
             Z = self._Z_(best_classifier[1],best_classifier[2])
 
             # 计算训练集权值分布 8.4
-            for i in xrange(self.N):
+            for i in range(self.N):
                 self.w[i] = self._w_(best_classifier[1],best_classifier[2],i)/Z
 
     def _predict_(self,feature):
 
         result = 0.0
-        for i in xrange(self.M):
+        for i in range(self.M):
             index = self.classifier[i][0]
             classifier = self.classifier[i][1]
 
