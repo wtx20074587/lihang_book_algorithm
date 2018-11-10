@@ -2,9 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045e9bf9-f3f7-4538-969d-2b496007acc0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AdaBoost/adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaBoost/adaboost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaBoost/adaboost_cpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaBoost/adaboost_cpp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxENT/maxENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/maxENT/maxENT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.k-means/k-means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.svm/generate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.svm/generate_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.svm/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.svm/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Debug/Sign.dll" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Debug/Sign.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Debug/Sign.exp" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Debug/Sign.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Debug/Sign.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Debug/Sign.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Debug/Sign.lib" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Debug/Sign.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Debug/Sign.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Debug/Sign.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign.sln" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign.v11.suo" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign.v11.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/Sign.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/Sign.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/Sign.log" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/Sign.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/Sign.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/Sign.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/cl.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/cl.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link-cvtres.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link-cvtres.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link-cvtres.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link-cvtres.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link-rc.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link-rc.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link-rc.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link-rc.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/sign.obj" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/sign.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/vc110.idb" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/vc110.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Debug/vc110.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Debug/vc110.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Sign.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Sign.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/Sign.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/Sign.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/sign.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/sign.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/sign.h" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/sign.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/Sign.Build.CppClean.log" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/Sign.Build.CppClean.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/Sign.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/Sign.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/Sign.log" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/Sign.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/Sign.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/Sign.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/cl.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/cl.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link-cvtres.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link-cvtres.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link-cvtres.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link-cvtres.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link-rc.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link-rc.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link-rc.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link-rc.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/sign.obj" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/sign.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/Sign/x64/Release/vc110.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/Sign/x64/Release/vc110.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/x64/Release/Sign.dll" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/x64/Release/Sign.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/x64/Release/Sign.exp" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/x64/Release/Sign.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/x64/Release/Sign.lib" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/x64/Release/Sign.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/Sign/x64/Release/Sign.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/Sign/x64/Release/Sign.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/adaboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.AdaBoost/adaboost_cpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.AdaBoost/adaboost_cpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.hmm/hmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.hmm/hmm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.softmax/softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.softmax/softmax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maxENT/maxENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.maxENT/maxENT.py" afterDir="false" />
     </list>
     <ignored path="mnist_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,36 +100,39 @@
     <session id="246849069">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="51" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6627" />
+          <entry key="Markdown" value="2" />
+          <entry key="Python" value="6629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="py" value="51" />
+          <entry key="md" value="3" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6627" />
+          <entry key="md" value="2" />
+          <entry key="py" value="6629" />
         </counts>
       </usages-collector>
     </session>
@@ -86,31 +143,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6.svm/svm.py">
+        <entry file="file://$PROJECT_DIR$/4.decision_tree/decision_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdaBoost/adaboost.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="275" column="4" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
+            <state relative-caret-position="734">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
               <folding>
-                <element signature="e#151#161#0" expanded="true" />
+                <element signature="e#17#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maxENT/maxENT.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.maxENT/maxENT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#152#171#0" expanded="true" />
               </folding>
@@ -119,24 +167,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/softmax/softmax.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="606">
+                <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AdaBoost/adaboost_cpp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
-              <folding>
-                <element signature="e#151#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11.k-means/k-means.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -194,6 +238,7 @@
         <option value="$PROJECT_DIR$/AdaBoost/adaboost.py" />
         <option value="$PROJECT_DIR$/softmax/softmax.py" />
         <option value="$PROJECT_DIR$/maxENT/maxENT.py" />
+        <option value="$PROJECT_DIR$/11.k-means/k-means.py" />
       </list>
     </option>
   </component>
@@ -203,9 +248,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="759" />
-    <option name="y" value="71" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1033" />
+    <option name="y" value="273" />
     <option name="width" value="1022" />
     <option name="height" value="718" />
   </component>
@@ -225,7 +270,7 @@
             <path>
               <item name="lihang_book_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="lihang_book_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="maxENT" type="462c0819:PsiDirectoryNode" />
+              <item name="11.k-means" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -545,13 +590,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22551343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22551343" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30868167" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30868167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0056270096" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,8 +660,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../test/ff.py" />
-    <entry file="file://$PROJECT_DIR$/maxENT/maxEnt_mnist.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -699,7 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hmm/hmm.py">
+    <entry file="file://$PROJECT_DIR$/9.hmm/hmm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2065">
           <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
@@ -754,16 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4.decision_tree/decision_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5.logistic_regression/binary_perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-910">
@@ -784,17 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.logistic_regression/competation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#151#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6.svm/generate_dataset.py">
+    <entry file="file://$PROJECT_DIR$/7.svm/generate_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1241">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
@@ -808,14 +832,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.svm/svm.py">
+    <entry file="file://$PROJECT_DIR$/7.svm/svm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdaBoost/adaboost_cpp.py">
+    <entry file="file://$PROJECT_DIR$/8.AdaBoost/adaboost_cpp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
@@ -825,7 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdaBoost/adaboost.py">
+    <entry file="file://$PROJECT_DIR$/8.AdaBoost/adaboost.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="275" column="4" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
@@ -835,22 +859,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/softmax/softmax.py">
+    <entry file="file://$PROJECT_DIR$/10.softmax/softmax.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maxENT/maxENT.py">
+    <entry file="file://$PROJECT_DIR$/5.logistic_regression/competation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+        <state relative-caret-position="490">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#151#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.decision_tree/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.maxENT/maxENT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#152#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="606">
+            <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11.k-means/k-means.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
